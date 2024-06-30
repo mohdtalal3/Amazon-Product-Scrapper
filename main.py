@@ -17,7 +17,7 @@ load_dotenv()
 
 def random_sleep(min_time, max_time):
     sleep_time = random.uniform(min_time, max_time)
-    #print(f"Sleeping for {sleep_time:.2f} seconds...")
+    #print(f"Sleeping for {sleep_time:.2f} seconds..")
     sleep(sleep_time)
 
 def extract_product_about_details(main_driver):
